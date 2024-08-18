@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+
+    chat-app:
+        hostname: chat-app
+        build: .docker/node
+        container_name: chat-app-react
+        volumes:
+            - ./:/var/www/app
+        networks:
+            - default
+        command: npm start
+
+networks:
+    default:
+        driver: bridge

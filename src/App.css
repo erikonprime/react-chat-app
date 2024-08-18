@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    background: linear-gradient(90deg, rgb(65, 81, 141) 0%, rgb(82, 38, 81) 50%);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.messages {
+    background-color: #e7e1e1
+}
+
+.header {
+    background-color: rgba(220, 53, 69, 0.28);
+    border-radius: 5px;
+    color: #ccc;
+}
+
+.container-message {
+    width: auto;
+    max-width: 250px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.upper-text {
+    color: black;
+    font-size: 12px;
+    align-self: flex-start;
+    line-height: 1.5;
+    background-color: #e7e1e1;
+    word-wrap: break-word;
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.message-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1em;
+}
+
+.character-picture {
+    width: 30px;
+    height: 30px;
+    background-color: #ffcc00;
+    margin-right: 10px;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.message {
+    color: black;
+    font-size: 16px;
+    word-wrap: break-word;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.lower-tex {
+    color: black;
+    font-size: 12px;
+    align-self: flex-end;
+    line-height: 2.5;
+}
+
+.margin-top-md {
+    margin-top: 2em;
+}
