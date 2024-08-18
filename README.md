@@ -10,7 +10,7 @@ Chat-app based on React + Firebase + Docker
 
 ### Dependencies
 
-* Docker version 27.1.2 or higher
+* Docker Engine version 27.1.2 or higher
 * firebase account
 * gmail account
 
@@ -29,3 +29,4 @@ docker compose up --force-recreate --build
 
 Inspiration, code snippets, etc.
 * [medium](https://joshuapleduc.medium.com/firebase-and-react-firebase-hooks-authentication-firestore-and-the-simplicity-of-it-all-5251a91656c3)
+* [chat design](https://www.bootdey.com/snippets/view/card-chat-list)

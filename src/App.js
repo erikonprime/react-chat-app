@@ -63,7 +63,7 @@ function App() {
         );
     }
 
-    return (<div className="container mt-5 position-relative">
+    return (<div className="container-fluid">
         {render}
     </div>);
 }
