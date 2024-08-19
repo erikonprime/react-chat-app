@@ -25,6 +25,16 @@ docker compose up --force-recreate --build
 * after compilation console will show links to view chat in the browser
 ![Alt text](chat-app-links.png)
 
+### How to use
+
+* open chat in browser
+* log in with gmail
+![Alt text](chat-app-sign-in.png)
+* enter room name
+![Alt text](chat-app-room.png)
+* start chatting!
+![Alt text](chat-app.png)
+
 ## Help
 
 Inspiration, code snippets, etc.

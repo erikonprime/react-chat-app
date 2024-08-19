@@ -16,6 +16,7 @@ function App() {
     const signUserOut = async () => {
         await signOut(auth);
         cookies.remove("auth-token");
+        cookies.remove("room");
         setIsAuth(false);
         setRoom('');
     };
@@ -38,10 +39,10 @@ function App() {
     ) : (
 
         <div>
-            <div className="row d-flex justify-content-center">
+            <div className="row d-flex justify-content-center mt-5">
                 <div className="col-md-auto">
                     <div className="card px-5 py-5">
-                        <div className="auth text-center">
+                        <div className="auth text-center px-5">
                             <div className="room">
                                 <label>Type room name:</label>
                                 <input className="form-control" ref={roomInputRef}/>
